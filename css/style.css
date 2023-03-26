@@ -1,0 +1,101 @@
+body{
+    padding: 0%;
+    margin: 1%;
+    background-color: var(--Main-bg-color);
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --Main-bg-color: #ffffff;
+    --Second-bg-color: #849294;
+    --Third-bg-color: #232323;
+    --fourth-bg-color: #fd6262;
+    --fifth-bg-color: #c1a475;
+    --text-color: #fff;
+  }
+
+.navBar{
+    /* margin-top: 0%; */
+    height: 66px;
+    /* background-color: var(--Second-bg-color); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar .logo img{
+    width: 150px;
+}
+
+.navBar .list ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar .list ul li{
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+.navBar .logIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navBar .logIn h4{
+    font-weight: 200;
+}
+
+.textProducts h4{
+    font-size: 40px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.partner .nike .nikeLogo,.adidasLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products img{
+    width: 100%;
+}
+
+.partner .nike, .adidas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.end .socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.end .textRights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

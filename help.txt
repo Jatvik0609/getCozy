@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/ae2643d39f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="navbar">
+    <div class="searchBar">
+      <input type="text" placeholder="Search...">
+    </div>
+
+    <div class="signUp">
+      <h1>Sign Up</h1>
+    </div>
+
+  </div>
+
+  <div class="logoSpace">
+
+    <div class="Sidebar1">
+      <H1>sidebar</H1>
+    </div>
+
+    <div class="MainLogo">
+      <img src="images/GroupedLog.png" alt="" class="logo_1">
+    </div>
+
+    <div class="Sidebar2">
+      <H1>sidebar2</H1>
+    </div>
+
+  </div>
+
+  <div class="menubutton">
+
+    <nav>
+      <ul class="button">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">STORE</a></li>
+        <li><a href="#">PARTNER</a></li>
+        <li><a href="#">ABOUT US</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="bannerBar">
+    <img src="images/HomePage-Banner.png" alt="">
+  </div>
+
+  <div class="productBar">
+    <div>
+      <img src="images/Product/Product1.png" alt="">
+    </div>
+
+    <div>
+      <img src="images/Product/Product2.png" alt="">
+    </div>
+
+    <div>
+      <img src="images/Product/Product3.png  " alt="">
+    </div>
+
+    <div>
+      <img src="images/Product/Product4.png" alt="">
+    </div>
+
+  </div>
+
+  <div class="hoodieBar">
+    <img src="images/HomePage-Banner2.png" alt="">
+  </div>
+
+  <div class="partnerCompany">
+    <img src="images/Logo_NIKE.svg.webp" alt="">
+    <h1>Nike, Inc. is an American multinational association that is involved in the design, development, manufacturing
+      and worldwide marketing and sales of apparel, footwear, accessories, equipment and services.
+      The companys world headquarters are situated near Beaverton, Oregon, in the Portland metropolitan area (USA). It
+      is a major producer of sports equipment and one of the worlds largest suppliers of athletic shoes and apparel.
+    </h1>
+  </div>
+
+  <div class="partnerCompany2">
+    <h1>Adidas, in full Adidas AG, German manufacturer of athletic shoes and apparel and sporting goods. In the early
+      21st century it was the largest sportswear manufacturer in Europe and the second largest (after Nike) in the
+      world. Adidas products are traditionally marked with a three-stripe trademark, which remains an element in the
+      companys newer “trefoil” and “mountain” logos. Headquarters are in Herzogenaurach, Germany.</h1>
+    <img src="images/Adidas_Logo.svg.webp" alt="">
+  </div>
+
+  <div class="endBar">
+    <div class="social-buttons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <h1>© 2023 GetCozy, Inc. All Rights Reserved</h1>
+  </div>
+
+</body>
+</html>
